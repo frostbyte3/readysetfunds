@@ -1,0 +1,475 @@
+.input[type=range] {
+	-webkit-appearance: none;
+	/* Hides the slider so that custom slider can be made */
+	width: 100%;
+	/* Specific width is required for Firefox. */
+	background: transparent;
+	/* Otherwise white in Chrome */
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+}
+
+input[type=range]:focus {
+	outline: none;
+	/* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+	width: 100%;
+	cursor: pointer;
+	/* Hides the slider so custom styles can be added */
+	background: transparent;
+	border-color: transparent;
+	color: transparent;
+}
+
+#slider-range span:nth-child(2) {
+	margin-left: -1px;
+	margin-top: -4px;
+	width: 12px;
+	height: 30px;
+	border-radius: 4px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+#slider-range span:nth-child(2):focus {
+	border: 0px;
+	outline: none;
+}
+
+#slider-range {
+	margin-bottom: 5px;
+}
+
+.get_pre_qualified {
+	overflow: hidden;
+	min-height: 300px;
+}
+
+#slider-range span:nth-child(2) {
+	margin-left: 0px;
+	margin-top: 1px;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	background: #ffffff;
+	cursor: pointer;
+	border: solid 1px #929ea2;
+}
+
+#slider-range span:nth-child(2):focus {
+	border: solid 1px #929ea2;
+	outline: 1px;
+}
+
+#slider-range {
+	margin-bottom: 5px;
+}
+
+.ranger span.pull-left {
+	color: #3690a9;
+	font-family: 'Roboto', sans-serif;
+}
+
+.ranger span.pull-right {
+	color: #3690a9;
+	font-family: 'Roboto', sans-serif;
+}
+
+.ranger {
+	margin-top: 13px;
+}
+
+.loan_calculator_form {
+	background-color: #001B46;
+	border-radius: 20px;
+}
+
+.range_wrap {
+	margin: 0 10%;
+	padding-top: 45px;
+}
+
+.range {
+	position: relative;
+	margin-bottom: 15px;
+	clear: both;
+}
+
+.range label {
+	font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	margin-bottom: 0;
+	line-height: 1.1em;
+	letter-spacing: 0.05em;
+	float: left;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 0 !important;
+}
+
+.range p {
+	color: #8aa2a7;
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-weight: 400;
+	float: left;
+	clear: both;
+	margin: 0;
+}
+
+.range h3 {
+	text-align: right;
+	margin: 0;
+	color: #00b389;
+	font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+	line-height: normal;
+	font-weight: 500;
+	font-size: 34px;
+}
+
+.range input {
+	width: 100%;
+	-webkit-appearance: none;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	background: transparent !important;
+	border: none !important;
+	clear: both;
+	float: left;
+}
+
+.range input:focus {
+	outline: none !important;
+}
+
+.range input::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 22px;
+	height: 22px;
+	margin: -7px 0 0;
+	border-radius: 50%;
+	background: #00b389;
+	cursor: pointer;
+}
+
+.range input::-moz-range-thumb {
+	width: 12px;
+	height: 12px;
+	margin: -4px 0 0;
+	border-radius: 50%;
+	background: #00b389;
+	cursor: pointer;
+}
+
+.range input::-ms-thumb {
+	width: 22px;
+	height: 22px;
+	margin: -5px 0 0;
+	border-radius: 50%;
+	background: #00b389;
+	cursor: pointer;
+}
+
+.range input::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 8px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.range input::-moz-range-track {
+	width: 100%;
+	height: 8px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.range input::-ms-track {
+	width: 100%;
+	height: 8px;
+	border-radius: 20px;
+	cursor: pointer;
+	border-color: transparent;
+	color: transparent;
+}
+
+#loan_amt input::-webkit-slider-runnable-track {
+	background: linear-gradient(to right, #37B453 0%, #00b389 8.5%, #575b62 8.5%, #575b62 100%);
+}
+
+#loan_amt input::-moz-range-track {
+	background: linear-gradient(to right, #37B453 0%, #00b389 8.5%, #575b62 8.5%, #575b62 100%);
+}
+
+#loan_amt input::-ms-track {
+	background: linear-gradient(to right, #37B453 0%, #00b389 8.5%, #575b62 8.5%, #575b62 100%);
+}
+
+#paymnt_terms input::-webkit-slider-runnable-track {
+	background: linear-gradient(to right, #37B453 0%, #00b389 33.33333333333333%, #575b62 33.33333333333333%, #575b62 100%);
+}
+
+#paymnt_terms input::-moz-range-track {
+	background: linear-gradient(to right, #37B453 0%, #00b389 33.33333333333333%, #575b62 33.33333333333333%, #575b62 100%);
+}
+
+#paymnt_terms input::-ms-track {
+	background: linear-gradient(to right, #37B453 0%, #00b389 33.33333333333333%, #575b62 33.33333333333333%, #575b62 100%);
+}
+
+#intrst_rate input::-webkit-slider-runnable-track {
+	background: linear-gradient(to right, #37B453 0%, #00b389 83.33333333333334%, #575b62 83.33333333333334%, #575b62 100%);
+}
+
+#intrst_rate input::-moz-range-track {
+	background: linear-gradient(to right, #37B453 0%, #00b389 83.33333333333334%, #575b62 83.33333333333334%, #575b62 100%);
+}
+
+#intrst_rate input::-ms-track {
+	background: linear-gradient(to right, #37B453 0%, #00b389 83.33333333333334%, #575b62 83.33333333333334%, #575b62 100%);
+}
+
+.range-labels {
+	margin: 18px -41px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.range-labels li {
+	position: relative;
+	float: left;
+	width: 90.25px;
+	text-align: center;
+	color: #b2b2b2;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.range-labels li::before {
+	position: absolute;
+	top: -25px;
+	right: 0;
+	left: 0;
+	content: "";
+	margin: 0 auto;
+	width: 9px;
+	height: 9px;
+	background: #b2b2b2;
+	border-radius: 50%;
+}
+
+.range-labels .active {
+	color: #3690a9;
+}
+
+.range-labels .selected::before {
+	background: #3690a9;
+}
+
+.range-labels .active.selected::before {
+	display: none;
+}
+
+.amount_banner {
+	float: left;
+	width: 100%;
+	margin: 25px 0 0;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 20px 0 25px;
+}
+
+.month_pmt {
+	text-align: center;
+}
+
+.month_pmt p {
+	color: #00b389;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.display_amt {
+	color: #fff;
+	font-size: 38px;
+	line-height: 1em;
+	clear: both;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.calc_table {
+	width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.calc_table thead {
+	margin-bottom: 15px;
+}
+
+.calc_table tbody tr {
+	height: 32px;
+}
+
+thead .rTable_left {
+	font-size: 16px;
+}
+
+thead .rTable_right {
+	font-size: 22px;
+}
+
+thead tr {
+	height: 36px;
+}
+
+.rTable_left {
+	color: #00b389;
+	font-family: 'Roboto';
+	font-weight: bold;
+	border: none;
+	font-size: 16px;
+	text-align: right;
+	width: 50%;
+}
+
+.rTable_right {
+	text-align: left;
+	color: #fff;
+	font-size: 20px;
+	border: none;
+	font-family: 'roboto';
+	line-height: normal;
+	font-weight: 500;
+}
+
+#view_more_info {
+	color: #8aa2a7;
+	font-size: 14px;
+	font-family: 'Roboto';
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 5px;
+	clear: both;
+}
+
+.app_button {
+	background-color: #008768 !important;
+	border-radius: 50px !important;
+	margin: 30px auto -39px;
+	margin-top: 30px;
+	width: 80%;
+}
+
+.radio_group {
+	display: block;
+    top: 15px;
+    clear: both;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.radio_group label {
+    width: 50%;
+    position: relative;
+}
+
+.radio_group input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+    left: -30px;
+	height: 25px;
+	width: 25px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+}
+
+.radio_group label:hover input~.checkmark {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* When the radio button is checked, add a blue background */
+
+.radio_group input:checked~.checkmark {
+	background-color: #008768 !important;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+
+.radio_group input:checked~.checkmark:after {
+	display: block;
+}
+
+/* Style the indicator (dot/circle) */
+
+.radio_group .checkmark:after {
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.free_content {
+	margin-top: 45px;
+	text-align: center;
+	color: #008768;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 600;
+	font-family: "Poppins";
+}
+
+.footnote {
+	text-align: left;
+	font-size: 14px;
+	font-family: 'Roboto';
+	padding: 10px;
+	color: #5d6567;
+}
+
+@media only screen and (min-width: 992px) {
+	.month_pmt {
+		text-align: right;
+	}
+}

@@ -1,0 +1,483 @@
+.banner {
+    background: url(../images/state_headers/downtown-NY.png);
+    background-size: cover;
+    height: 90vh;
+    margin: 0;
+}
+
+.banner-wrap {
+    padding-top: 60px;
+}
+
+.banner-text-wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-text {
+    background-color: rgba(39, 45, 55, 0.8);
+    padding: 10%;
+    height: 100%;
+    width: 100%;
+}
+
+.home-form {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.banner-text h2 {
+    font-size: 28px;
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin: 25px 15px;
+    font-family: 'Roboto';
+}
+
+.how_much_input {
+    background: #F7F7F7 !important;
+    border: 1px solid #E3E3E3 !important;
+    box-sizing: border-box !important;
+    border-radius: 5px !important;
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.get-started-head {
+    height: 30px;
+}
+
+.info_strip {
+    width: 100%;
+    max-width: 100%;
+}
+
+.hero_name_wrapper {
+    width: 100%;
+}
+
+.hr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 15px 5%;
+}
+
+.hr span {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    margin: 0 15px;
+}
+
+.hr:before, .hr:after {
+    background: #E5E5E5;
+    height: 2px;
+    flex: 1;
+    content: '';
+}
+
+.action_buttons {
+    margin-top: 25px;
+}
+
+.who_head {
+    margin: 20px 0 !important;
+    font-size: 2.25em;
+    font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.who_text {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+/**
+* Services
+**/
+.services_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    clear: both;
+}
+
+.service_item {
+    flex-basis: 100%;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.service_icon {
+    float: left;
+    height: 80px;
+    margin: 0 25px;
+    cursor: pointer;
+}
+
+.service_item img {
+    background-color: rgba(46,220,177,0.1);
+    transition: 500ms ease-out;
+}
+
+.service_item img:hover {
+    background-color: #000000;
+}
+
+.service_disc_text p {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-family: "open sans", Arial, sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.service_disc {
+    float: left;
+    padding: 15px 25px 25px;
+    background-color: #fff;
+}
+
+.service_disc:hover {
+    box-shadow: 0px 30px 45px 0px rgba(131,146,167,0.2);
+    transition: 500ms ease-out;
+}
+
+.learnmore, a.learnmore:visited, a.learnmore:link {
+    color: #008768;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.calc_hero {
+    position: relative;
+    width: 100%;
+    min-height: 690px;
+    background: url('/wp-content/uploads/2019/12/working_at_desk.o-1568x1045.jpg') center bottom / cover no-repeat;
+    float: none;
+    z-index: 1;
+    padding-bottom: 25px;
+}
+
+.calc_wrap_overlay {
+    background: linear-gradient(180deg,#272d37 0%,rgba(39,45,55,0.85) 100%);
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content_wrap {
+    z-index: 3;
+    position: relative;
+}
+
+.calc_wrap {
+    width: 90%;
+    margin: 0 auto;
+    z-index: 3;
+    position: relative;
+}
+
+.calc_wrap_float { 
+    padding-top: 25px;
+}
+
+.calc_content {
+    padding: 0 50px;
+}
+
+.calc_head {
+    color: #fff;
+    text-align: left;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    padding-top: 60px;
+    font-size: 34px;
+    color: #fff;
+}
+
+.calc_subhead {
+    color: #fff;
+    text-align: left;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    padding-top: 40px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.calc_text {
+    color: #fff;
+    padding-top: 5px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.footnote {
+    color: #fff !important;
+}
+
+.banner-wrap-wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.who_wrap {
+    margin-top: 50px;
+    margin-bottom: 120px;
+    padding: 0 10vw;
+}
+.community_image {
+    margin-top: 20px;
+}
+
+.pre-footer-wrapper {
+    background-image: linear-gradient(180deg,#272d37 0%,rgba(39,45,55,0.85) 100%), url(/wp-content/uploads/2019/12/railings.jpg);
+    padding: 0 5vw;
+    margin: 5vw;
+}
+
+.outro_row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.outro_pop_wrapper {
+    background-color: #008768;
+    margin-top: -5vw;
+    margin-bottom: 0px;
+    padding: 30px 35px;
+}
+
+.outro_pop_wrapper h3 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: bold;
+    line-height: 1.4em;
+    margin: 0;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.333);
+}
+
+.outro_apply {
+    padding: 60px 5vw 25px;
+}
+
+.outro_apply h2 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.4em;
+    color: #fff;
+    margin-bottom: 15px !important;
+}
+
+.outro_apply p {
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 1.2em;
+}
+
+.outro_action {
+    padding: 60px 40px;
+    color: #000 !important;
+    background-color: #fff;
+    float: left;
+    font-weight: bold;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    transition: 500ms;
+}
+
+a.outro_action:visited, a.outro_action:link {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+a.outro_action:hover {
+    color: #fff !important;
+    background-color: #000;
+}
+.free_content {
+    color: #fff !important;
+}
+
+a .service_disc_text_wrap h6:visited, a .service_disc_text_wrap h6:link {
+    text-decoration: none;
+}
+
+.service_disc_head {
+    color: #111111;
+    font-size: 0.71111em;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 440px) {
+    .calc_wrap {
+        width: 420px;
+    }
+}
+
+@media only screen and (min-width: 630px) {
+    .calc_wrap {
+        width: 620px;
+    }
+}
+
+/*
+** Desktop CSS
+*/
+
+@media only screen and (min-width: 992px) {
+    .banner-wrap-wrap {
+        margin-top: -150px;
+        margin-right: -250px;
+        width: unset;
+        height: unset;
+    }
+    .banner-wrap {
+        padding-top: 100px;
+    }
+    .banner {
+        display: block;
+        position: relative;
+        margin: 150px 25% 15px 0px;
+    }
+    .banner-text-wrap {
+        padding-top: 35px;
+        width: 450px;
+        min-height: 80vh;
+    }
+    .banner-text {
+    height: unset;
+    width: unset;
+    }
+    .info_strip {
+        position: absolute;
+        bottom: 0;
+    }
+    .hero_name_wrapper {
+        width: 50%;
+    }
+    .hero_name_text_wrapper {
+        background-color: #ffffff;
+        padding-top: 100px!important;
+        padding-right: 5vw!important;
+        padding-left: 5vw!important;
+        margin-top: -9vw!important;
+    }
+    .hero_name_text_inner {
+        position: relative;
+    }
+    .service_item {
+        flex-basis: 33.33%;
+    }
+    .services_wrapper {
+        margin: 125px 15%;
+    }
+    .who_wrap {
+        margin-top: 100px;
+        margin-bottom: 190px;
+        padding: 0;
+    }
+    .community_image {
+        margin: 0 10%;
+    }
+
+
+    /*
+    ** Outro CSS
+    */
+    .pre-footer-wrapper {
+        padding: 0 96px;
+        margin: 0 5vw 100px;
+    }
+    .outro_blurb_left {
+        width: 40%;
+    }
+    .outro_blurb_right {
+        width: 60%;
+    }
+    .outro_pop_wrapper {
+        padding: 7vw 5vw 100px;
+        margin-top: -5vw;
+        height: calc(100% + 5vw);
+    }
+    .outro_pop_wrapper h3 {
+        font-size: 30px;
+    }
+    .outro_apply {
+        padding-top: 60px;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+    .outro_apply h2 {
+        font-size: 4vw;
+        margin-bottom: unset;
+    }
+}
+
+/**
+* Media 992px < 1290
+*/
+@media only screen and (min-width: 992px) and (max-width: 1290px) {
+    .right {
+        width: 50%;
+    }
+    .banner-wrap-wrap {
+        margin-right: -150px;
+    }
+}
+
+/**
+* Media 1278 <
+*/
+@media only screen and (min-width: 1278px) {
+    .calc_hero {
+        margin-top: 80px;
+    }
+    .calc_wrap {
+        width: 50%;
+        float: left;
+    }
+    .calc_wrap_float {
+        width: 80%;
+        margin: -50px auto 0;
+        padding: unset;
+    }
+    .calc_content {
+        padding-left: 0px;
+        width: 50%;
+        float: left;
+    }
+    .free_content {
+        color: #008768 !important;
+    }
+}
+
+
+/**
+* Media 1366 <
+*/
+@media only screen and (min-width: 1366px) {
+    .outro_pop_wrapper h3 {
+        font-size: 50px;
+    }
+}
+
+/**
+* Media < 992
+*/
+@media only screen and (max-width: 991px) {
+}

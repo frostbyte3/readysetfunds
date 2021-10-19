@@ -1,0 +1,113 @@
+Version 1.1.1:
+ - Merge branch 'develop' of ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/repo-justWP into develop
+ - updated success page
+ - Conflicts resolved in the console.
+ - fixed version log
+ - Merge branch 'develop' of ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/repo-justWP
+ - Version bump to 1.0.0
+ - Added VERSION and CHANGES files, Version bump to v0.1.0
+ - v1.0.0
+ - updated wp-config-sample
+
+Version 1.1.0:
+ - Added VERSION and CHANGES files, Version bump to v0.1.0
+ - added phone to header & cleaned tooltips
+ - added google analytics
+ - moved create table to server init
+ - added create table
+ - Added VERSION and CHANGES files, Version bump to v0.1.0
+ - v1.0.0
+ - updated wp-config-sample
+
+Version 1.0.0
+ - added phone to header & cleaned tooltips
+ - added google analytics
+ - moved create table to server init
+ - added create table
+ - setup for prod dep
+ - versionized default css
+ - edited team flex
+ - us updates
+ - touched up bios
+ - fixed image circle
+ - some color touch ups
+ - finishing touches
+ - updated wp to 5.3.2
+ - shiny logo
+ - credit processing page
+ - mobile bios
+ - fixed big
+ - better bios js
+ - changed dispBio to toggleBio
+ - added bio feature
+ - daily/weekly mca calcs
+ - touched up app
+ - fine tuning
+ - made calc heads one line
+ - fixed footer-menu
+ - made mca calc an mca calculator
+ - added blog
+ - added service pages & other improvements
+ - calculator split & faq updates
+ - most of the about page
+ - about us
+ - some nav & calc updates
+ - security & nav enhancements
+ - more homepage touchups
+ - nav touchups
+ - removed from gitignore & committed env config
+ - gitignored wp-config.php
+ - more homepage stuff
+ - added images
+ - updated more stuff
+ - added more calc info & added calc to homepage
+ - added calculator
+ - updated homepage
+ - added geo hero & enhanced forms
+ - sudoified composer stuff
+ - changed config to env
+ - Misc infra updates
+ - app improvements
+ - added sql connection
+ - finished app form
+ - added tab 3
+ - added addressfill.js
+ - added error checking for tab2 & made navigation better
+ - small tweaks
+ - added tab 2 assets
+ - added tab 2
+ - more application stuff
+ - more form stuff
+ - added 404
+ - Merge branch 'master' of ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/repo-justWP into feature-homepage
+ - 404
+ - finished 5.3 update
+ - updated wp to 5.3
+ - made apply now white
+ - updated nav & homepage hero
+ - added testdesign
+ - added footer
+ - really fixed navigation
+ - fixed mobile menu toggle hover
+ - fixed the css this time
+ - fixed mobile nav
+ - fixed button coloring & added dynamic navbar
+ - added some fonts
+ - updated banner bg-color
+ - changed header image
+ - updated actions & content
+ - added bg to mobile menu
+ - added more responsiveness
+ - made logo more responsive
+ - re-centered logo
+ - fixed logo image link
+ - added name to login logo
+ - made some progress on the home page
+ - updated login logo
+ - Merge branch 'master' of ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/repo-justWP
+ - test pull
+ - removed wp-config from cache
+ - updated gitignore
+ - updated gitignore
+ - initial commit
+

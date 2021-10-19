@@ -1,0 +1,13 @@
+{
+    "name": "readysetfunds/wp",
+    "description": "required_libraries",
+    "require": {
+        "vlucas/phpdotenv": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "Mitchell Lewis",
+            "email": "mitch@buzbiz.com"
+        }
+    ]
+}
